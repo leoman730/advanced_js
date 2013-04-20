@@ -45,9 +45,14 @@ Topics will be demonstrated through live-code examples, available at [afeld.gith
 jQuery('.myDiv').blink(500);
 ```
 
+### By class 3
+
+* Read [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/)
+* Start on [project](#project)
+
 ## Project
 
-As homework, you are going to re-create the game Text Twist.  The original (http://games.yahoo.com/console/tx) is an old-school Java applet... we want to bring it into this decade and port to JavaScript.  Spend a bit of time playing it to get the feel (warning: addictive).  The requirements:
+As homework, you are going to re-create the game Text Twist.  The original (http://zone.msn.com/en/texttwist/, or [gameplay video](http://www.youtube.com/watch?v=qEfor-WdWTk&t=0m13s)) is an old-school Flash app... we want to bring it into this decade and port to JavaScript.  Spend a bit of time playing it to get the feel (warning: addictive).  The requirements:
 
 * two sets of letters (get a single set working first)
 * which set is used for each game (random vs. strict ordering): coder’s choice
