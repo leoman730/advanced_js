@@ -1,5 +1,7 @@
 # Advanced JavaScript
 
+***See this README prettier [here](http://documentup.com/afeld/advanced_js).***
+
 * **Course:** [INFO1-CE9766, NYU SCPS, Spring 2013](http://scps.nyu.edu/content/scps/academics/course_detail.html?id=INFO1-CE9766)
 * **Location:** 7 E 12th St, Rm 227
 * **Schedule:** Saturdays, April 6th through May 4th 2013, 10am-1pm (5 sessions)
@@ -32,33 +34,62 @@ We will dive into the nuances of JavaScript, how prototypal inheritance compares
 
 Topics will be demonstrated through live-code examples, available at [afeld.github.io/advanced_js](http://afeld.github.io/advanced_js/).  Additional exercises will completed in-class.
 
-## Homework
+## Course Outline
 
-### By class 2
+Please email assignments to the instructor by the start of the next class.  Send your assignments in an online sandbox (see [tools](https://github.com/afeld/advanced_js#tools)), or as a self-contained, runnable ZIP.
 
-* Read [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-* Finish up and send `echo()` exercise
-* Write [jQuery plugin](http://docs.jquery.com/Plugins/Authoring) that makes an element act like a `<blink>` tag
+### Class 1
 
-```javascript
-// show/hide every 500ms
-jQuery('.myDiv').blink(500);
-```
+* Get through "echo" slide
+* Homework:
+    * Read [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+    * Finish up and send `echo()` exercise
+    * Write [jQuery plugin](http://docs.jquery.com/Plugins/Authoring) that makes an element act like a `<blink>` tag
 
-### By class 3
+        ```javascript
+        // show/hide every 500ms
+        jQuery('.myDiv').blink(500);
+        ```
 
-* Read [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/)
-* Start on [project](#project)
+### Class 2
+
+* Homework:
+    * Read [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/)
+    * Start on [Text Twist project](#project)
+
+### Class 3
+
+* Homework:
+    * Finish Memory game, v1. ([example](http://www.zefrank.com/memory/))
+    * Finish Text Twist, v1.
+
+### Class 4
+
+* Cover OOP, though "namespace" slide
+* Homework:
+    * Refactor Memory and Text Twist to use 'classes'.
+    * Advance at least one "level" from where you left off in class in the `namespace` exercise.
+
+### Class 5
+
+* Present projects
+* Cover AJAX/JSONP ([files](https://github.com/afeld/advanced_js/tree/master/ajax))
+* Cover handling parallel/serial async requests
+    * [async](https://github.com/caolan/async#control-flow-1) library
+    * Promises/[jQuery.Deferred](http://api.jquery.com/jQuery.Deferred/)
+* AJAX exercise (see list of [good APIs for mashups](https://gist.github.com/afeld/4952991))
 
 ## Project
 
 As homework, you are going to re-create the game Text Twist.  The original (http://zone.msn.com/en/texttwist/, or [gameplay video](http://www.youtube.com/watch?v=qEfor-WdWTk&t=0m13s)) is an old-school Flash app... we want to bring it into this decade and port to JavaScript.  Spend a bit of time playing it to get the feel (warning: addictive).  The requirements:
 
-* two sets of letters (get a single set working first)
+* two sets of letters
+    * get a single set working first
+    * the dictionaries can be small - just enough to show that the game works
+    * should be trivial to add additional sets
 * which set is used for each game (random vs. strict ordering): coder’s choice
 * letters from set displayed in random order at the start of each game
-* should be trivial to add additional sets
-* game should be playable with keyboard only (you might try jQuery [keypress](http://api.jquery.com/keypress/)/[keydown](http://api.jquery.com/keydown/))
+* game should be playable with keyboard only (you might use jQuery [keypress](http://api.jquery.com/keypress/)/[keydown](http://api.jquery.com/keydown/))
 * display a player’s progress within a game, either similar to the Yahoo implementation (empty boxes on the left), or in a different creative way
 * a countdown showing the time remaining (time limit up to you)
 * a way to reset the game when it ends
@@ -81,6 +112,7 @@ You are welcome to publish on the web (think of your own name), but **please ema
 
 * [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 * [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/)
+* https://twitter.com/necolas/status/291978260433219584
 
 ### Recommended Reading
 
@@ -108,6 +140,7 @@ This class assumes you are confident with this material, but in case you need a 
 * [Code School](http://www.codeschool.com/paths/javascript)
 * Thoughtbot's [Javascript Trail Map](https://learn.thoughtbot.com/javascript)
 * [How To Learn JavaScript Properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
+* [Teach Yourself to Code](http://teachyourselftocode.com/)
 
 ### Tools
 
